@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Week1HelloWorld</string>
+    <string name="welcome_msg">Week 2 Lecture</string>
+    <string name="android_development_image">android development image</string>
+    <string name="first_btn">1</string>
+    <string name="second_btN">2</string>
+</resources>
