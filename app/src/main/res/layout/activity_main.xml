@@ -17,6 +17,7 @@
 
 
     <TextView
+        android:id="@+id/dateText"
         android:background="@color/Red"
         android:text="Jan 17, 2022"
         android:textSize="30sp"
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
 />
     <ImageView
+        android:id="@+id/android_image"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:srcCompat="@drawable/img"
@@ -54,4 +56,33 @@
         style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 
+
+    <EditText
+        android:id="@+id/usernametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Your Name!!!"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/useridtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Your ID!!!"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:text="@string/log_in"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logInClicked"
+        />
 </LinearLayout>
